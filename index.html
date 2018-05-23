@@ -1,6 +1,14 @@
 <html>
 	<head>
-		<script src="./index.js" />
+		<script src="index.js">
+			askPermission()
+			.then(()=> {
+				console.log("Got Permission!");
+			})
+			.catch((err) => {
+				console.error("ERROR:",err);
+			})
+		</script>
 		<title>Jacques Fernandes</title>
 	</head>
 
