@@ -19,6 +19,7 @@ function registerServiceWorker()
 
 function askPermission() {
   return new Promise(function(resolve, reject) {
+    console.log("Asking permission!");
     var permissionResult = Notification.requestPermission(function(result) {
       resolve(result);
     });
