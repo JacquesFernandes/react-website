@@ -34,8 +34,3 @@ function askPermission() {
     }
   });
 }
-
-askPermission()
-.then(()=> {
-  console.log("Got Permission!");
-})
