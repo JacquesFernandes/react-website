@@ -2,7 +2,7 @@
   "name": "git-website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://jacquesfernandes.github.io/",
+  "homepage": "https://jacquesfernandes.github.io/react-website",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.6.3",
